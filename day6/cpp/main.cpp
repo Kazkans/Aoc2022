@@ -10,7 +10,6 @@ int check_distinct(std::string s, long unsigned int n) {
 		}
 		if (set.size() == n) {
 			return i+n;
-			break;
 		}
 	}
 	return 0;
